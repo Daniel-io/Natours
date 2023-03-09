@@ -1,2 +1,2 @@
-# Natoura
+# Natours
 Udemy project
