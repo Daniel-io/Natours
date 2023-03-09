@@ -1,0 +1,338 @@
+/* ==========================================================================
+   #VARIABLES
+   ========================================================================== */
+
+
+
+
+
+
+
+
+   
+/**
+* This file sets up the most important setup variables. They
+* underpin a lot of how the framework functions and should be modified and
+* preconfigured with caution.
+*/
+
+
+
+
+
+
+
+
+
+
+/**
+* CONTENTS
+*
+* #TYPEFACE 
+* #GLOBAL FONT SIZE
+* #HEADINGS FONT SIZE
+* #GLOBAL SPACING UNIT
+* #COLOR PALETT
+* #COLOR PALETT : SEMANTIC
+* #LIST
+* #STANDARD UI : border radius, box shadow, transition                     
+* #BUTTON UI
+* #Z-INDEX
+*
+*
+*/  
+
+
+    
+
+
+
+
+
+
+
+:root {
+
+
+
+
+
+/* #TYPEFACE
+========================================================================== */
+
+
+
+
+
+--typeface-primary: 'Late', sans-serif;
+
+
+
+
+
+/* #GLOBAL FONT SIZE
+========================================================================== */
+
+
+
+
+
+--global-font-size        :    100%;
+--global-font-size-xs     :    100%;
+--global-font-size-sm     :    100%;
+--global-font-size-lg     :    100%;
+--global-font-size-xl     :    100%;
+
+--global-line-height   :    1.5;
+
+
+
+
+
+/* #HEADINGS FONT SIZE
+========================================================================== */
+
+
+
+
+
+--font-size-h1:  2.25rem ;
+--font-size-h2:  1.75rem ;
+--font-size-h3:  1.5rem  ;
+--font-size-h4:  1.25rem ;
+--font-size-h5:  1.125rem;
+--font-size-h6:  1rem    ;
+
+
+
+
+
+/* #GLOBAL SPACING UNIT
+========================================================================== */
+
+
+
+
+
+/*  
+* There are two rules to creating Vertical Rhythm:
+*
+* Set the spaces between each element to a multiple of the baseline
+* Set the line-height of each text element to a multiple of the baseline
+*
+* It is not recommended that you modify these following variables.
+* (it can break your vertical rhythm), but if you need to, you can.
+*/
+
+--global-spacing-unit:      calc(var(--global-line-height) * 1rem);
+--global-spacing-unit-xs:   calc(var(--global-spacing-unit) / 4);
+--global-spacing-unit-sm:   calc(var(--global-spacing-unit) / 2);
+--global-spacing-unit-lg:   calc(var(--global-spacing-unit) * 2);
+--global-spacing-unit-xl:   calc(var(--global-spacing-unit) * 4);
+
+
+
+
+
+
+
+
+
+
+
+
+/* #COLOR PALETT
+   ========================================================================== */
+
+
+
+
+
+--white:                 #fff;
+--gray-100:              #f8f9fa;
+--gray-200:              #e9ecef;
+--gray-300:              #dee2e6;
+--gray-400:              #ced4da;
+--gray-500:              #adb5bd;
+--gray-600:              #6c757d;
+--gray-700:              #495057;
+--gray-800:              #343a40;
+--gray-900:              #212529;
+--black:                 #000;
+
+
+/* THEME Pallet */
+--blue:                  #1c7ed6;
+--blue-light:            #339af0;
+--blue-dark:             #1864ab;
+
+--yellow:                #ffe066;
+--yellow-light:          #fff9db;
+--yellow-dark:           #ffd43b;
+
+--indigo:                #4263eb;
+--indigo-light:          #5c7cfa;
+--indigo-dark:           #364fc7;
+
+--red:                   #f03e3e;
+--red-light:             #ff6b6b;
+--red-dark:              #c92a2a;
+
+--green:                 #37b24d;
+--green-light:           #51cf66;
+--green-dark:            #2b8a3e;
+
+--purple:                #6f42c1;
+--purple:                #6f42c1;
+--pink:                  #e83e8c;
+--orange:                #fd7e14;
+--teal:                  #20c997;
+--cyan:                  #17a2b8;
+
+             
+
+
+
+
+
+
+
+
+/* #COLOR PALETT : SEMANTIC
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+--color-primary:                     var(--blue);
+--color-primary-highlight:           var(--blue-light);
+--color-primary-shadow:              var(--blue-dark);
+
+--color-secondary:                   var(--yellow);
+--color-secondary-highlight:         var(--yellow-light);
+--color-secondary-shadow:            var(--yellow-dark);
+
+--color-tertiary:                    var(--indigo);
+--color-tertiary-highlight:          var(--indigo-light);
+--color-tertiary-shadow:             var(--indigo-dark);
+
+--color-success:                     var(--green);
+--color-success-highlight:           var(--green-light);
+--color-success-shadow:              var(--green-dark);
+
+--color-error:                       var(--red);
+--color-error-highlight:             var(--red-light);
+--color-error-shadow:                var(--red-dark);
+
+
+
+
+
+
+
+
+
+/* #LIST
+   ========================================================================== */
+
+
+
+
+
+
+
+--list-group-item-padding:  var(--global-spacing-unit-xs);
+--list-group-radius:        var(--global-radius);
+
+
+
+
+
+
+
+
+
+
+/* #STANDARD UI : border radius, box shadow, transition
+   ========================================================================== */
+
+
+
+
+
+--global-radius:      5px;
+--global-transition:  all 300ms ease-in-out;
+
+
+
+
+
+--global-box-shadow-xs:   0 2px 2px 0 rgba(0,0,0,0.14);
+--global-box-shadow-sm:   0 4px 5px 0 rgba(0,0,0,0.14);
+--global-box-shadow:      0 8px 17px 2px rgba(0,0,0,0.14);
+--global-box-shadow-lg:   0 16px 24px 2px rgba(0,0,0,0.14);
+--global-box-shadow-xl:   0 24px 38px 3px rgba(0,0,0,0.14);
+
+
+
+
+
+
+
+
+
+
+/* #BUTTON UI
+   ========================================================================== */
+
+
+
+
+
+--button-padding-vertical:       var(--global-spacing-unit-sm);
+--button-padding-horizontal:     var(--global-spacing-unit);
+
+--button-padding-vertical-sm:     var(--global-spacing-unit-xs);
+--button-padding-horizontal-sm:   var(--global-spacing-unit-sm);
+
+--button-padding-vertical-lg:     var(--global-spacing-unit);
+--button-padding-horizontal-lg:   var(--global-spacing-unit-lg);
+
+--button-transition:              var(--global-transition);
+--button-radius:                  var(--global-radius);
+
+--button-ghost-border-width:      .125rem; /* Must be in rem units for calc() function */
+
+
+
+
+
+
+
+
+
+/* #Z-INDEX
+   ========================================================================== */
+
+
+
+
+
+--zindex-sticky:  1020;
+--zindex-fixed :  1030;
+
+
+
+
+
+
+
+}
+
+

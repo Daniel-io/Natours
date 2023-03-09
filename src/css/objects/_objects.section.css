@@ -1,0 +1,433 @@
+/* ==========================================================================
+   #SECTION
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-section {
+  display: block;   
+  padding-top: var(--global-spacing-unit);
+  padding-bottom: var(--global-spacing-unit);
+}
+
+
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+/* flush  */
+.o-section--fl {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.o-section--xs {
+  padding-top: var(--global-spacing-unit-xs);
+  padding-bottom: var(--global-spacing-unit-xs);
+}
+  
+.o-section--sm {
+  padding-top: var(--global-spacing-unit-sm);
+  padding-bottom: var(--global-spacing-unit-sm);
+}
+  
+.o-section--lg {
+  padding-top: var(--global-spacing-unit-lg);
+  padding-bottom: var(--global-spacing-unit-lg);
+}
+
+.o-section--xl {
+  padding-top: var(--global-spacing-unit-xl);
+  padding-bottom: var(--global-spacing-unit-xl);
+}
+
+
+
+
+
+
+
+
+
+/* xs  */
+@media (min-width: 30em) {
+
+
+
+
+	.o-section\@xs {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-section--fl\@xs  {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-section--xs\@xs {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-section--sm\@xs {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-section--lg\@xs {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-section--xl\@xs {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* sm  */
+@media (min-width: 45em) {
+
+
+
+
+	.o-section\@sm {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-section--fl\@sm {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-section--xs\@sm {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-section--sm\@sm {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-section--lg\@sm {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-section--xl\@sm {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* lg  */
+@media (min-width: 64em) {
+
+
+
+
+	
+	.o-section\@lg {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-section--fl\@lg {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-section--xs\@lg {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-section--sm\@lg {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-section--lg\@lg {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-section--xl\@lg {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* xl  */
+@media (min-width: 75em) {
+
+
+
+
+	.o-section\@xl {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-section--fl\@xl {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-section--xs\@xl {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-section--sm\@xl {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-section--lg\@xl {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-section--xl\@xl {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UI variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-section--light {
+  color: var(--black);
+}
+
+.o-section--dark {
+  color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

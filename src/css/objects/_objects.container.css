@@ -1,0 +1,63 @@
+/* ==========================================================================
+   #CONTAINER
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/**
+* Page-level constraining and wrapping elements. 
+* Pair with clearfix 
+*/
+
+
+.o-container {
+  max-width: 80rem;
+  padding-right: var(--global-spacing-unit);    
+  padding-left: var(--global-spacing-unit);     
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-container--xs {
+  max-width: 37.5rem;
+}
+
+.o-container--sm {
+  max-width: 50rem;
+}
+
+.o-container--lg {
+  max-width: 92.5rem;
+}
+
+.o-container--xl {
+  max-width: 125rem;
+}
