@@ -54,6 +54,7 @@
 * COMPONENTS
 * Avatar...............Avatar image.
 * Buttons..............Button styles.
+* Header...............Header styles
 * List-group...........List-group UI.
 * Modal................Modal structure.
 *
@@ -125,7 +126,10 @@
 
 @import "./components/_components.avatar.css";
 @import "./components/_components.buttons.css";    
+@import "./components/_components.header.css";    
+@import "./components/_components.headings.css";    
 @import "./components/_components.list-group.css";
+@import "./components/_components.logo.css";
 @import "./components/_components.modal.css";         /* TODO */
 
 

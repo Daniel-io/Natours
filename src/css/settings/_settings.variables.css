@@ -64,7 +64,7 @@
 
 
 
---typeface-primary: 'Late', sans-serif;
+--typeface-primary: 'Lato', sans-serif;
 
 
 
@@ -83,7 +83,7 @@
 --global-font-size-lg     :    100%;
 --global-font-size-xl     :    100%;
 
---global-line-height   :    1.5;
+--global-line-height   :    1.7;
 
 
 
@@ -159,6 +159,7 @@ Dark green: #28b485
 
 
 --white:                 #fff;
+--gray:                  #777;
 --gray-100:              #f8f9fa;
 --gray-200:              #e9ecef;
 --gray-300:              #dee2e6;
@@ -188,9 +189,9 @@ Dark green: #28b485
 --red-light:             #ff6b6b;
 --red-dark:              #c92a2a;
 
---green:                 #37b24d;
---green-light:           #51cf66;
---green-dark:            #2b8a3e;
+--green:                 #55c57a;
+--green-light:           #7ed56f;
+--green-dark:            #28b485 ;
 
 --purple:                #6f42c1;
 --purple:                #6f42c1;
@@ -220,9 +221,13 @@ Dark green: #28b485
 
 
 
---color-primary:                     var(--blue);
---color-primary-highlight:           var(--blue-light);
---color-primary-shadow:              var(--blue-dark);
+--color-primary:                     var(--green);
+--color-primary-highlight:           var(--green-light);
+--color-primary-shadow:              var(--green-dark);
+
+--rgb-color-primary:                85,  197, 122;
+--rgb-color-primary-highlight:      126, 213, 11;
+--rgb-color-primary-shadow:         40, 180, 133;
 
 --color-secondary:                   var(--yellow);
 --color-secondary-highlight:         var(--yellow-light);

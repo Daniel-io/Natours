@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #HEADINGS
+   ========================================================================== */
+
+
+
+
+
+.c-heading-primary {
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.c-heading-primary__main,
+.c-heading-primary__sub {
+  display: block;
+}
+
+.c-heading-primary__main {
+  font-size: 3.75rem;
+  font-weight: 400;
+  letter-spacing: 2.1875rem;
+}
+
+.c-heading-primary__sub {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1.0875rem;
+}
+
+
+
+
+
+
+

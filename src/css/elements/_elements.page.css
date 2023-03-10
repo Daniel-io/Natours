@@ -34,11 +34,17 @@ html {
 
 	/* Visual */
 	background-color: var(--white);
-	color: var(--black);
+	color: var(--gray);
 
 	scroll-behavior: smooth;
 }
 
+
+
+
+body {
+	padding: var(--global-spacing-unit);
+}
 
 
 
