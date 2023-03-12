@@ -1,6 +1,7 @@
 <!-- CURRENTLY ON -->
 
-- SECTION 2 - #8 COOL ANIMATIONS
+- SECTION 5 - #32
+
 
 <!-- CSS GUIDELINES  -->
 
