@@ -1,0 +1,83 @@
+/* ==========================================================================
+   #ANIMATIONS
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-moveInLeft {
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+
+.u-moveInRight {
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+
+.u-moveInBottom {
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: .75s;
+  /* Apply styles before animation starts  */
+  animation-fill-mode: backwards;
+}
+
+
+
+
+
+
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-6.25rem);
+  }
+  80% {
+    transform: translateX(.625rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(6.25rem);
+  }
+  80% {
+    transform: translateX(-.625rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1.875rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

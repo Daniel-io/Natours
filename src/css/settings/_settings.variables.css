@@ -281,8 +281,9 @@ Dark green: #28b485
 
 
 
---global-radius:      5px;
---global-transition:  all 300ms ease-in-out;
+--global-radius:         5px;
+--global-radius-lg:      25px;
+--global-transition:     all 300ms ease-in-out;
 
 
 
@@ -321,6 +322,7 @@ Dark green: #28b485
 
 --button-transition:              var(--global-transition);
 --button-radius:                  var(--global-radius);
+--button-radius-lg:               var(--global-radius-lg);
 
 --button-ghost-border-width:      .125rem; /* Must be in rem units for calc() function */
 

@@ -136,6 +136,7 @@
 
 
 
+@import "./utilities/_utilities.animations.css";
 @import "./utilities/_utilities.background.css";
 @import "./utilities/_utilities.clearfix.css";
 @import "./utilities/_utilities.display.css";    

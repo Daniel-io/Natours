@@ -269,6 +269,37 @@
 
 
 
+.c-btn--white,
+.c-btn--white:link,
+.c-btn--white:visited {
+    background-color: var(--white);
+}
+
+.c-btn--white,
+.c-btn--white:link,
+.c-btn--white:visited,
+.c-btn--white:hover,
+.c-btn--white:active,
+.c-btn--white:focus {
+    text-decoration: none; 
+    color: #777;
+}
+
+.c-btn--white:hover,
+.c-btn--white:focus {
+    transform: translateY(-0.1875rem);
+    box-shadow: var(--global-box-shadow-lg);
+}
+
+.c-btn--white:active {
+    transform: translateY(.0625rem);
+    box-shadow: var(--global-box-shadow);
+}
+
+
+
+
+
 
 
 
@@ -423,6 +454,24 @@
 
 
 
+
+.c-btn--white.c-btn--ghost {
+    color: var(--white);
+} 
+
+.c-btn--white.c-btn--ghost:hover,
+.c-btn--white.c-btn--ghost:focus {
+    color: var(--gray);
+    background-color: var(--white);
+    border: var(--button-ghost-border-width) solid var(--white);
+}
+
+
+
+
+
+
+
 .c-btn--ghost.c-btn--sm {
     padding: calc(var(--button-padding-vertical-sm) - var(--button-ghost-border-width)) calc(var(--button-padding-horizontal-sm) - var(--button-ghost-border-width));
 }
@@ -456,9 +505,91 @@
 }
 
 
-  
-  
-  
+
+
+
+
+
+
+
+
+/* Rounded 
+   ========================================================================== */
+
+
+
+
+
+
+
+
+.c-btn--rounded {
+    border-radius: var(--button-radius-lg) !important;
+}
+
+
+
+
+
+
+
+
+/* Theme animation
+   ========================================================================== */
+
+
+
+
+
+
+
+
+/* .c-btn--animated {}    */
+.c-btn--animated::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+    /* It cant inherit because it becomes animated on load */
+    border-radius: 3.125rem;
+
+    z-index: -1;
+    transition: inherit;
+}
+
+
+
+
+.c-btn--primary.c-btn--animated::after {
+    background-color: inherit;
+} 
+
+.c-btn--primary.c-btn--animated:hover::after ,
+.c-btn--primary.c-btn--animated:focus::after  {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+
+
+
+.c-btn--white.c-btn--animated::after {
+    background-color: inherit;
+} 
+
+.c-btn--white.c-btn--animated:hover::after ,
+.c-btn--white.c-btn--animated:focus::after  {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
   
   
   
