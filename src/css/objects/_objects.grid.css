@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #FLOAT GRID
+   ========================================================================== */
+
+
+
+
+
+
+.row {
+  margin-left: -3rem;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.col-1-of-2 {
+  float: left;
+  width: 50%;
+  padding-left: 3rem;
+}
+
+.col-1-of-3 {
+  float: left;
+  width: 33.333%;
+  padding-left: 3rem;
+}
+
+.col-1-of-4 {
+  float: left;
+  width: 25%;
+  padding-left: 3rem;
+}
+
+
+
+@media (max-width: 767px) {
+
+  .row:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  [class^=col-] {
+    float: none;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}

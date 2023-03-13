@@ -45,6 +45,7 @@
 * OBJECTS
 * Box..................boxes off content using padding.
 * Container............Wrappers and page constraints.
+* Gird.................Float grid
 * Layout...............Generic layout module.
 * List-bare............Lists with no bullets or indents.
 * List-inline..........Simple abstraction for setting lists out in a line.
@@ -57,7 +58,6 @@
 * Header...............Header styles
 * List-group...........List-group UI.
 * Modal................Modal structure.
-*
 *
 * UTILITIES
 * Background...........Background color.
@@ -114,6 +114,7 @@
 
 @import "./objects/_objects.box.css";
 @import "./objects/_objects.container.css";
+@import "./objects/_objects.grid.css";
 @import "./objects/_objects.layout.css";
 @import "./objects/_objects.list-bare.css";
 @import "./objects/_objects.list-inline.css";
