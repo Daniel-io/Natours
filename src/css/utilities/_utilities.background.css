@@ -30,3 +30,7 @@
 .u-bg-error {
   background-color: var(--color-error) !important;
 }
+
+.u-bg-gray {
+  background-color: var(--gray-100);
+}
