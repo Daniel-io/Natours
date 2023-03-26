@@ -169,9 +169,8 @@
 
 
 /* THEME Pallet */
---blue:                  #1c7ed6;
---blue-light:            #339af0;
---blue-dark:             #1864ab;
+--blue:                 #5643fa;
+--blue-light:           #2998ff;
 
 --yellow:                #ffe066;
 --yellow-light:          #fff9db;
@@ -188,6 +187,10 @@
 --green:                 #55c57a;
 --green-light:           #7ed56f;
 --green-dark:            #28b485 ;
+
+--orange:                #ff7730;
+--orange-ligth:          #ffb900;
+
 
 --purple:                #6f42c1;
 --purple:                #6f42c1;
@@ -225,13 +228,11 @@
 --rgb-color-primary-highlight:      126, 213, 11;
 --rgb-color-primary-shadow:         40, 180, 133;
 
---color-secondary:                   var(--yellow);
---color-secondary-highlight:         var(--yellow-light);
---color-secondary-shadow:            var(--yellow-dark);
+--color-secondary:                   var(--orange);
+--color-secondary-highlight:         var(--orange-ligth);
 
---color-tertiary:                    var(--indigo);
---color-tertiary-highlight:          var(--indigo-light);
---color-tertiary-shadow:             var(--indigo-dark);
+--color-tertiary:                    var(--blue);
+--color-tertiary-highlight:          var(--blue-light);
 
 --color-success:                     var(--green);
 --color-success-highlight:           var(--green-light);

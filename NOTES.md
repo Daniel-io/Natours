@@ -19,6 +19,7 @@
 
 1. For global font size and line hight in settings put warning about usage from inuit css
 
+2. name theme-color to separeate theme palet from random colors
 
 
 
@@ -32,6 +33,7 @@
 1. Clip path tool: clippy
    https://bennettfeely.com/clippy/
 
+2. Perspective
 
 
 

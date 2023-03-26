@@ -127,6 +127,7 @@
 
 @import "./components/_components.avatar.css";
 @import "./components/_components.buttons.css";    
+@import "./components/_components.card.css";    
 @import "./components/_components.composition.css";    
 @import "./components/_components.feature.css";    
 @import "./components/_components.header.css";    
@@ -135,6 +136,7 @@
 @import "./components/_components.logo.css";
 @import "./components/_components.modal.css";         /* TODO */
 @import "./components/_components.paraghraph.css";        
+@import "./components/_components.story.css";        
 
 
 
