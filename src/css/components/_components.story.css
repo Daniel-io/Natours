@@ -32,6 +32,9 @@
 
 .c-story__img {
   height: 100%;
+  object-fit: cover;
+  transform: scale(1.4);
+  transition: var(--global-transition);
 }
 
 
@@ -39,10 +42,24 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 20%);
   color: var(--white);
   text-transform: uppercase;
   font-size: 1.0625rem;
   text-align: center;
+  opacity: 0;
+  transition: var(--global-transition);
+  backface-visibility: hidden;
 }
 
+
+.c-story:hover .c-story__caption {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+
+.c-story:hover .c-story__img {
+  transform: scale(1);
+  filter: blur(3px) brightness(80%);
+}
