@@ -21,8 +21,9 @@
 
 2. name theme-color to separeate theme palet from random colors
 
+3. think about instead of o-section--stories etc.. have that be a c-stories 
 
-
+4. change current positio  utils to name the fixed and create position utils (relative, absolute etc) probably only relative would ne neccessary. explore this
 
 
 

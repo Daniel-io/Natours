@@ -13,6 +13,7 @@
   width: 75%;
   margin: 0 auto;
   transform: skewX(-12deg);
+  background: rgb(255 255 255 / 60%);
 }
 
 .c-story > * {
@@ -62,4 +63,27 @@
 .c-story:hover .c-story__img {
   transform: scale(1);
   filter: blur(3px) brightness(80%);
+}
+
+
+.c-stories__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .15;
+  z-index: -1;
+}
+
+.o-section--stories {
+  position: relative;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
