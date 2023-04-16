@@ -25,9 +25,11 @@
 
 4. change current positio  utils to name the fixed and create position utils (relative, absolute etc) probably only relative would ne neccessary. explore this
 
+5. ad bg util for gradients
 
+6. add variants to border radius and box shadow settings
 
-
+7. Add prevent default to modal because anchor element makes scroll to top when modal appears
 <!-- CSS NOTES -->
 
 

@@ -34,3 +34,11 @@
 .u-bg-gray {
   background-color: var(--gray-100);
 }
+
+
+
+
+
+.u-bg-gradient--primary {
+  background-image: linear-gradient( to right bottom, rgba(var(--rgb-color-primary-highlight)), rgba(var(--rgb-color-primary-shadow)));
+}

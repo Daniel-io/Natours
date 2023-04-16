@@ -126,6 +126,7 @@
 
 
 @import "./components/_components.avatar.css";
+@import "./components/_components.book.css";
 @import "./components/_components.buttons.css";    
 @import "./components/_components.card.css";    
 @import "./components/_components.composition.css";    
